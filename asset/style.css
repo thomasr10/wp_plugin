@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.options {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.options label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.options select {
+  margin: 0 2rem 0 0.5rem;
+  height: 28px;
+  border-radius: 8px;
+}
+.options input[type=submit] {
+  margin-left: 1rem;
+  height: 32px;
+  width: 90px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.2s ease-in;
+}
+.options input[type=submit]:hover {
+  cursor: pointer;
+  background-color: #d8d8d8;
+}
+
+.post {
+  height: 240px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 1.4rem;
+  position: relative;
+}
+.post .title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.post .title h3 {
+  font-weight: bold;
+}
+.post .title p {
+  font-style: italic;
+}
+.post .tags {
+  position: absolute;
+  bottom: 2rem;
+  left: 4rem;
+}
+.post .tags .tag {
+  color: #585858;
+  font-style: italic;
+}
+.post .note {
+  position: absolute;
+  bottom: 2rem;
+  right: 4rem;
+}
+
+.white {
+  background-color: aliceblue;
+  color: #333;
+}
+.white i {
+  color: #ffc107;
+}
+
+.black {
+  background-color: #333;
+  color: aliceblue;
+}
+.black i {
+  color: #ffc107;
+}
+
+.purple {
+  background-color: #A29BFE;
+  color: #333;
+}
+.purple i {
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */
